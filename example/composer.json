@@ -1,0 +1,18 @@
+{
+    "name": "manuel/project-skeleton",
+    "description": "Best example",
+    "license": "MIT",
+    "autoload": {
+        "files": [
+            "app/Config/Config.php"
+        ],
+        "psr-4": {
+            "App\\": "app/"
+        }
+    },
+    "require": {
+        "simfony/http-foundation": "^5.3",
+        "simfony/routing": "^5.3",
+        "vlucas/phpdotenv": "^5.3"
+    }
+}
